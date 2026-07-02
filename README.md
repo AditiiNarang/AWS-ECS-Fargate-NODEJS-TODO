@@ -32,6 +32,8 @@ This project demonstrates a complete manual deployment workflow using the AWS Ma
 ---
 
 ## Deployment Workflow
+
+---
 Developer
       │
       ▼
