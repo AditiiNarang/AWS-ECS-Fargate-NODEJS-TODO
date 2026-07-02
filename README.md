@@ -33,31 +33,7 @@ This project demonstrates a complete manual deployment workflow using the AWS Ma
 
 ## Deployment Workflow
 
----
-Developer
-      │
-      ▼
-Docker Build
-      │
-      ▼
-Docker Image
-      │
-      ▼
-Amazon ECR Public
-      │
-      ▼
-Amazon ECS Cluster
-      │
-      ▼
-AWS Fargate
-      │
-      ▼
-Running Container
-      │
-      ├────────► CloudWatch Logs
-      │
-      └────────► Container Insights
-
+Developer -> Docker Build -> Docker Image -> Amazon ECR Public -> Amazon ECS Cluster -> AWS Fargate -> Running Container -> CloudWatch Logs and Container Insights
 
 ---
 
