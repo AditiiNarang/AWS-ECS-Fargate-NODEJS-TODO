@@ -61,19 +61,19 @@ Running Container
 
 # AWS Services Used
 
-| Service                      |              Purpose            |
-|----------                    |---------------------------------|
-| Amazon ECS                   | Container orchestration |
-| AWS Fargate                  | Serverless compute for containers |
-| Amazon ECR Public | Stores Docker images |
-| CloudWatch Logs | Collects application logs |
-| Container Insights | Container monitoring and metrics |
-| VPC | Network isolation |
-| Subnets | Task placement |
-| Security Groups | Network access control |
-| IAM Execution Role | Allows ECS to pull images and publish logs |
-| AWSServiceRoleForECS | Enables ECS to manage AWS resources |
-
+| Service                      |                     Purpose                  |
+|------------------------------|----------------------------------------------|
+| Amazon ECS                   | Container orchestration                      |
+| AWS Fargate                  | Serverless compute for containers            |
+| Amazon ECR Public            | Stores Docker images                         |
+| CloudWatch Logs              | Collects application logs                    |
+| Container Insights           | Container monitoring and metrics             |
+| VPC                          | Network isolation                            |
+| Subnets                      | Task placement                               |
+| Security Groups              | Network access control                       |
+| IAM Execution Role           | Allows ECS to pull images and publish logs   |
+| AWSServiceRoleForECS         | Enables ECS to manage AWS resources          |
+ 
 ---
 
 # Repository Structure
@@ -89,8 +89,11 @@ aws-ecs-fargate-nodejs-todo
 ├── LICENSE
 ├── README.md
 │
+├── Architecture/image
+|
 ├── views/
-|── docs/
+|
+├── docs/documentation
 ```
 
 ---
@@ -169,9 +172,11 @@ Automation tools such as CI/CD pipelines, Infrastructure as Code, and orchestrat
 ---
 
 # License
+
 This project is intended for educational and learning purposes.
 
 ---
 
 # Author
+
 **Aditi Narang**
