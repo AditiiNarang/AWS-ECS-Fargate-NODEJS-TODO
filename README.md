@@ -68,11 +68,11 @@ aws-ecs-fargate-nodejs-todo
 ├── LICENSE
 ├── README.md
 │
+├── Workflow.png
+|
 ├── Architecture/image
 |
 ├── views/
-|
-├── docs/documentation
 ```
 
 ---
@@ -153,6 +153,15 @@ Automation tools such as CI/CD pipelines, Infrastructure as Code, and orchestrat
 # License
 
 This project is intended for educational and learning purposes.
+
+---
+
+---
+
+# Documentation
+
+[Implementation Steps](https://docs.google.com/document/d/19FPZpChcBsXNdcfa3pyphbkBpIMBqRV_QCXuz5s5eIA/edit?usp=drive_link)
+[Theory and Achitecture](https://docs.google.com/document/d/1G4OlSSYL0Ydi4MNs9kafRoMnaMj6wryVyAk6t_Zj99E/edit?usp=drive_link)
 
 ---
 
