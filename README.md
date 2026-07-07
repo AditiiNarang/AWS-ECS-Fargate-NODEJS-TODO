@@ -60,19 +60,16 @@ Developer (GitHub Code) → EC2 Instance → Docker Build → Docker Image → A
 ```
 aws-ecs-fargate-nodejs-todo
 │
-├── app.js
-├── Dockerfile
-├── package.json
-├── package-lock.json
-├── .gitignore
-├── LICENSE
-├── README.md
-│
-├── Workflow.png
-|
 ├── Architecture/image
 |
 ├── views/
+|
+├── Dockerfile
+├── README.md
+├── Workflow.png
+├── app.js
+├── package-lock.json
+└── package.json
 ```
 
 ---
